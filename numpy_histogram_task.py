@@ -3,8 +3,11 @@ import matplotlib.pyplot as plt
 # using random numbers
 a=np.random.random((3,5))
 print(a)
-print(a*100)
-plt.hist(a * 100)
+c=a*100
+print(c)
+b=c.flatten()
+print(b)
+plt.hist(b)
 plt.show()
 
 # using normal method
